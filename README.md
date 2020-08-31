@@ -1,7 +1,7 @@
 # Ansible Role for Kata Containers
 
 [![Travis](https://img.shields.io/travis/com/alvistack/ansible-role-kata.svg)](https://travis-ci.com/alvistack/ansible-role-kata)
-[![GitHub release](https://img.shields.io/github/release/alvistack/ansible-role-kata.svg)](https://github.com/alvistack/ansible-role-kata)
+[![GitHub release](https://img.shields.io/github/release/alvistack/ansible-role-kata.svg)](https://github.com/alvistack/ansible-role-kata/releases)
 [![GitHub license](https://img.shields.io/github/license/alvistack/ansible-role-kata.svg)](https://github.com/alvistack/ansible-role-kata/blob/master/LICENSE)
 [![Ansible Role](https://img.shields.io/badge/galaxy-alvistack.kata-blue.svg)](https://galaxy.ansible.com/alvistack/kata)
 
