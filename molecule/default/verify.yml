@@ -18,9 +18,9 @@
   remote_user: root
   become: true
   tasks:
-    - name: kata --version
+    - name: kata-runtime --version
       environment:
         PATH: "/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
-      command: kata --version
+      command: kata-runtime --version
       register: result
       changed_when: result is not succeeded
