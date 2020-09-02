@@ -82,8 +82,8 @@
       && mkdir -p /opt/kata
     cd /opt/kata
     TMP_DIR="$(mktemp -d)" \
-      && tar -x -C $TMP_DIR -f {{ kata_download.dest }} --strip-components=1 \
-      && cp -rfT $TMP_DIR/kata/* . \
+      && tar -x -C $TMP_DIR -f {{ kata_download.dest }} --strip-components=3 \
+      && cp -rfT $TMP_DIR/ . \
       && rm -rf $TMP_DIR
   args:
     executable: "/bin/bash"
