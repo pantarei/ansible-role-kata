@@ -15,11 +15,7 @@
 # limitations under the License.
 
 _kata_download:
-  "1.11.3":
-    url: "https://github.com/kata-containers/runtime/releases/download/1.11.3/kata-static-1.11.3-x86_64.tar.xz"
-    dest: "{{ ansible_user_dir }}/.ansible/tmp/kata-static-1.11.3-x86_64.tar.xz"
-    checksum: "sha1:d90e5879ed80ff5b0b4d55e51b09829dded2b6b0"
-  "1.11.2":
-    url: "https://github.com/kata-containers/runtime/releases/download/1.11.2/kata-static-1.11.2-x86_64.tar.xz"
-    dest: "{{ ansible_user_dir }}/.ansible/tmp/kata-static-1.11.2-x86_64.tar.xz"
-    checksum: "sha1:c6708fde240295d7e722add351e4e0b3f701bcab"
+  "2.0.0":
+    url: "https://github.com/kata-containers/kata-containers/releases/download/2.0.0/kata-static-2.0.0-x86_64.tar.xz"
+    dest: "{{ ansible_user_dir }}/.ansible/tmp/kata-static-2.0.0-x86_64.tar.xz"
+    checksum: "sha1:366c9b853788b4adff8a2c46039608d2ab0ac0a4"
