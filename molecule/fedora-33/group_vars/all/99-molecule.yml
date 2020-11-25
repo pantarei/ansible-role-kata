@@ -13,9 +13,3 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-
-_kata_download:
-  "2.0.0":
-    url: "https://github.com/kata-containers/kata-containers/releases/download/2.0.0/kata-static-2.0.0-x86_64.tar.xz"
-    dest: "{{ ansible_user_dir }}/.ansible/tmp/kata-static-2.0.0-x86_64.tar.xz"
-    checksum: "sha1:366c9b853788b4adff8a2c46039608d2ab0ac0a4"
