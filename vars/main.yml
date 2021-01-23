@@ -15,6 +15,10 @@
 # limitations under the License.
 
 _kata_download:
+  "2.0.1":
+    url: "https://github.com/kata-containers/kata-containers/releases/download/2.0.1/kata-static-2.0.1-x86_64.tar.xz"
+    dest: "{{ ansible_user_dir }}/.ansible/tmp/kata-static-2.0.1-x86_64.tar.xz"
+    checksum: "sha1:18bbca7bd048aa8a500fd89cd5f8b66cd4435746"
   "2.0.0":
     url: "https://github.com/kata-containers/kata-containers/releases/download/2.0.0/kata-static-2.0.0-x86_64.tar.xz"
     dest: "{{ ansible_user_dir }}/.ansible/tmp/kata-static-2.0.0-x86_64.tar.xz"
