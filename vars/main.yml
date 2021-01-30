@@ -17,9 +17,9 @@
 _kata_download:
   "2.0.1":
     url: "https://github.com/kata-containers/kata-containers/releases/download/2.0.1/kata-static-2.0.1-x86_64.tar.xz"
-    dest: "{{ ansible_user_dir }}/.ansible/tmp/kata-static-2.0.1-x86_64.tar.xz"
-    checksum: "sha1:18bbca7bd048aa8a500fd89cd5f8b66cd4435746"
+    dest: "/var/cache/ansible/1ac8aefe10687360fc55dc1b0f9a06f6dad695213e811f2c3e222b088779edb1/kata-static-2.0.1-x86_64.tar.xz"
+    checksum: "sha256:1ac8aefe10687360fc55dc1b0f9a06f6dad695213e811f2c3e222b088779edb1"
   "2.0.0":
     url: "https://github.com/kata-containers/kata-containers/releases/download/2.0.0/kata-static-2.0.0-x86_64.tar.xz"
-    dest: "{{ ansible_user_dir }}/.ansible/tmp/kata-static-2.0.0-x86_64.tar.xz"
-    checksum: "sha1:366c9b853788b4adff8a2c46039608d2ab0ac0a4"
+    dest: "/var/cache/ansible/d26b1883415c59bf401e7bf965eed953aba5e770cb27319ddaa7eab6ada1ec7f/kata-static-2.0.0-x86_64.tar.xz"
+    checksum: "sha256:d26b1883415c59bf401e7bf965eed953aba5e770cb27319ddaa7eab6ada1ec7f"
