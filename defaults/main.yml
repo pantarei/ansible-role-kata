@@ -15,7 +15,7 @@
 # limitations under the License.
 
 # Kata Containers version.
-kata_version: "2.0.1"
+kata_version: "2.0.3"
 
 # Kata Containers download details.
 kata_download: "{{ _kata_download[kata_version] }}"
