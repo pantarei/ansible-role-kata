@@ -103,6 +103,4 @@
     mode: "{{ item.mode | default('0644') }}"
     state: "{{ item.state | default('file') }}"
   loop:
-    - { dest: "/opt/kata/bin/kata-fc", mode: "0755" }
-    - { dest: "/opt/kata/bin/kata-qemu", mode: "0755" }
     - { dest: "/opt/kata/bin/kata-runtime", mode: "0755" }
