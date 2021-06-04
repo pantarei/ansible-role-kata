@@ -14,8 +14,11 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+# Kata Containers release.
+kata_release: "2.1"
+
 # Kata Containers version.
-kata_version: "2.1.0"
+kata_version: "{{ _kata_version[kata_release] }}"
 
 # Kata Containers download details.
 kata_download: "{{ _kata_download[kata_version] }}"
