@@ -1,9 +1,13 @@
 # Ansible Role for Kata Containers
 
-[![Gitlab pipeline status](https://img.shields.io/gitlab/pipeline/alvistack/ansible-role-kata/master)](https://gitlab.com/alvistack/ansible-role-kata/-/pipelines)
-[![GitHub release](https://img.shields.io/github/release/alvistack/ansible-role-kata.svg)](https://github.com/alvistack/ansible-role-kata/releases)
-[![GitHub license](https://img.shields.io/github/license/alvistack/ansible-role-kata.svg)](https://github.com/alvistack/ansible-role-kata/blob/master/LICENSE)
-[![Ansible Role](https://img.shields.io/badge/galaxy-alvistack.kata-blue.svg)](https://galaxy.ansible.com/alvistack/kata)
+[![Gitlab pipeline
+status](https://img.shields.io/gitlab/pipeline/alvistack/ansible-role-kata/master)](https://gitlab.com/alvistack/ansible-role-kata/-/pipelines)
+[![GitHub
+release](https://img.shields.io/github/release/alvistack/ansible-role-kata.svg)](https://github.com/alvistack/ansible-role-kata/releases)
+[![GitHub
+license](https://img.shields.io/github/license/alvistack/ansible-role-kata.svg)](https://github.com/alvistack/ansible-role-kata/blob/master/LICENSE)
+[![Ansible
+Role](https://img.shields.io/badge/galaxy-alvistack.kata-blue.svg)](https://galaxy.ansible.com/alvistack/kata)
 
 Ansible Role for Kata Containers Installation.
 
@@ -39,7 +43,8 @@ This role could simply deploy to `localhost` as below:
 ## License
 
   - Code released under [Apache License 2.0](LICENSE)
-  - Docs released under [CC BY 4.0](http://creativecommons.org/licenses/by/4.0/)
+  - Docs released under [CC
+    BY 4.0](http://creativecommons.org/licenses/by/4.0/)
 
 ## Author Information
 
