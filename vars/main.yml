@@ -15,27 +15,15 @@
 # limitations under the License.
 
 _kata_version:
-  "2.1": "2.1.1"
-  "2.0": "2.0.4"
+  "2.3": "2.3.0"
+  "2.2": "2.2.3"
 
 _kata_download:
-  "2.1.1":
-    url: "http://github.com/kata-containers/kata-containers/releases/download/2.1.1/kata-static-2.1.1-x86_64.tar.xz"
-    dest: "/var/cache/ansible/a83591d968cd0f1adfb5025d7aa33ca1385d4b1165ff10d74602302fc3c0373f/kata-static-2.1.1-x86_64.tar.xz"
-    checksum: "a83591d968cd0f1adfb5025d7aa33ca1385d4b1165ff10d74602302fc3c0373f"
-  "2.1.0":
-    url: "http://github.com/kata-containers/kata-containers/releases/download/2.1.0/kata-static-2.1.0-x86_64.tar.xz"
-    dest: "/var/cache/ansible/c954cdd723bad4ee20e57f107fe1064f0a00f4c349c1826b7a0f89d02f94dec0/kata-static-2.1.0-x86_64.tar.xz"
-    checksum: "c954cdd723bad4ee20e57f107fe1064f0a00f4c349c1826b7a0f89d02f94dec0"
-  "2.0.4":
-    url: "http://github.com/kata-containers/kata-containers/releases/download/2.0.4/kata-static-2.0.4-x86_64.tar.xz"
-    dest: "/var/cache/ansible/022a60c2d92a5ab9a5eb83d5a95154a2d06fdc2206b2a473d902ccc86766371a/kata-static-2.0.4-x86_64.tar.xz"
-    checksum: "022a60c2d92a5ab9a5eb83d5a95154a2d06fdc2206b2a473d902ccc86766371a"
-  "2.0.3":
-    url: "http://github.com/kata-containers/kata-containers/releases/download/2.0.3/kata-static-2.0.3-x86_64.tar.xz"
-    dest: "/var/cache/ansible/3c999b819f2bba68fba4b9b099a7242f5bc8cdc938ebeb622adf2a8479b6dc42/kata-static-2.0.3-x86_64.tar.xz"
-    checksum: "3c999b819f2bba68fba4b9b099a7242f5bc8cdc938ebeb622adf2a8479b6dc42"
-  "2.0.1":
-    url: "http://github.com/kata-containers/kata-containers/releases/download/2.0.1/kata-static-2.0.1-x86_64.tar.xz"
-    dest: "/var/cache/ansible/1ac8aefe10687360fc55dc1b0f9a06f6dad695213e811f2c3e222b088779edb1/kata-static-2.0.1-x86_64.tar.xz"
-    checksum: "1ac8aefe10687360fc55dc1b0f9a06f6dad695213e811f2c3e222b088779edb1"
+  "2.3.0":
+    url: "http://github.com/kata-containers/kata-containers/releases/download/2.3.0/kata-static-2.3.0-x86_64.tar.xz"
+    dest: "/var/cache/ansible/430fa55b387b3bafbbabb7e59aa8c809927a22f8d836732a0719fd2e1d131b31/kata-static-2.3.0-x86_64.tar.xz"
+    checksum: "430fa55b387b3bafbbabb7e59aa8c809927a22f8d836732a0719fd2e1d131b31"
+  "2.2.3":
+    url: "http://github.com/kata-containers/kata-containers/releases/download/2.2.3/kata-static-2.2.3-x86_64.tar.xz"
+    dest: "/var/cache/ansible/e207ab5c8128b50fe61f4f6f98fd34af0fa5ebc0793862be6d13a2674321774f/kata-static-2.2.3-x86_64.tar.xz"
+    checksum: "e207ab5c8128b50fe61f4f6f98fd34af0fa5ebc0793862be6d13a2674321774f"
